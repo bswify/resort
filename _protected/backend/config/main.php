@@ -13,12 +13,21 @@ return [
     'bootstrap' => ['log'],
     'modules' => [],
     'components' => [
+
+        'assetManager' => [
+    'bundles' => [
+    'dmstr\web\AdminLteAsset'=>[
+    'skin' => 'skin-green-light',
+    ],
+  ],
+],
+
         // here you can set theme used for your backend application 
         // - template comes with: 'default', 'slate', 'spacelab' and 'cerulean'
         'view' => [
             'theme' => [
-                'pathMap' => ['@app/views' => '@webroot/themes/slate/views'],
-                'baseUrl' => '@web/themes/slate',
+                'pathMap' => ['@app/views' => '@webroot/themes/adminlte/views'],
+                'baseUrl' => '@web/themes/adminlte',
             ],
         ],
         'user' => [

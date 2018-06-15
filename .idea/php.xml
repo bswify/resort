@@ -57,6 +57,12 @@
       <path value="$PROJECT_DIR$/_protected/vendor/codeception/verify" />
       <path value="$PROJECT_DIR$/_protected/vendor/composer" />
       <path value="$PROJECT_DIR$/_protected/vendor/mihaildev/yii2-ckeditor" />
+      <path value="$PROJECT_DIR$/_protected/vendor/dmstr/yii2-adminlte-asset" />
+      <path value="$PROJECT_DIR$/_protected/vendor/cebe/yii2-gravatar" />
+      <path value="$PROJECT_DIR$/_protected/vendor/rmrevin/yii2-fontawesome" />
+      <path value="$PROJECT_DIR$/_protected/vendor/fortawesome/font-awesome" />
+      <path value="$PROJECT_DIR$/_protected/vendor/almasaeed2010/adminlte" />
+      <path value="$PROJECT_DIR$/_protected/vendor/ramosisw/yii2-material-dashboard" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="5.4.0" />

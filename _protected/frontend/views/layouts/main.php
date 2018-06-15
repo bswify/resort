@@ -1,95 +1,86 @@
 <?php
 use frontend\assets\AppAsset;
-use frontend\widgets\Alert;
+// use frontend\widgets\Alert;
 use yii\helpers\Html;
-use yii\bootstrap\Nav;
-use yii\bootstrap\NavBar;
-use yii\widgets\Breadcrumbs;
+use yii\web\View;
+// use yii\bootstrap\Nav;
+// use yii\bootstrap\NavBar;
+// use yii\widgets\Breadcrumbs;
+
 
 /* @var $this \yii\web\View */
 /* @var $content string */
 
 AppAsset::register($this);
+// $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@themes/material');
+
+
 ?>
 <?php $this->beginPage() ?>
-<!DOCTYPE html>
+<!doctype html>
 <html lang="<?= Yii::$app->language ?>">
 <head>
+    <link rel="shortcut icon" href="<?php echo Yii::$app->getHomeUrl(); ?>/favicon.ico?v=1" type="image/x-icon" />
     <meta charset="<?= Yii::$app->charset ?>">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
-</head>
-<body>
-    <?php $this->beginBody() ?>
-    <div class="wrap">
-        <?php
-            NavBar::begin([
-                'brandLabel' => Yii::t('app', Yii::$app->name),
-                'brandUrl' => Yii::$app->homeUrl,
-                'options' => [
-                    'class' => 'navbar-default navbar-fixed-top',
-                ],
-            ]);
 
-            // everyone can see Home page
-            $menuItems[] = ['label' => Yii::t('app', 'Home'), 'url' => ['/site/index']];
+<body id="mybody">
+<?php $this->beginBody() ?>
+<div class="wrapper">
 
-            // we do not need to display Article/index, About and Contact pages to editor+ roles
-            if (!Yii::$app->user->can('editor')) 
-            {
-                $menuItems[] = ['label' => Yii::t('app', 'Articles'), 'url' => ['/article/index']];
-                $menuItems[] = ['label' => Yii::t('app', 'About'), 'url' => ['/site/about']];
-                $menuItems[] = ['label' => Yii::t('app', 'Contact'), 'url' => ['/site/contact']];
-            }
+    <div class="sidebar" data-color="purple" data-image="<?= Yii::getAlias('@uploadUrl').'/img/sidebar-1.jpg' ?>">
+        <!--
+               Tip 1: You can change the color of the sidebar using: data-color="purple | blue | green | orange | red"
 
-            // display Article admin page to editor+ roles
-            if (Yii::$app->user->can('editor'))
-            {
-                $menuItems[] = ['label' => Yii::t('app', 'Articles'), 'url' => ['/article/admin']];
-            }            
-            
-            // display Signup and Login pages to guests of the site
-            if (Yii::$app->user->isGuest) 
-            {
-                $menuItems[] = ['label' => Yii::t('app', 'Signup'), 'url' => ['/site/signup']];
-                $menuItems[] = ['label' => Yii::t('app', 'Login'), 'url' => ['/site/login']];
-            }
-            // display Logout to all logged in users
-            else 
-            {
-                $menuItems[] = [
-                    'label' => Yii::t('app', 'Logout'). ' (' . Yii::$app->user->identity->username . ')',
-                    'url' => ['/site/logout'],
-                    'linkOptions' => ['data-method' => 'post']
-                ];
-            }
-           
-            echo Nav::widget([
-                'options' => ['class' => 'navbar-nav navbar-right'],
-                'items' => $menuItems,
-            ]);
-            NavBar::end();
+            Tip 2: you can also add an image using data-image tag
+        -->
+
+        <div class="logo">
+            <a href="#" class="simple-text">
+                I Resort
+            </a>
+        </div>
+
+        <?php $navbarbrand = 'Material Dashboard'; ?>
+
+
+        <!-- left -->
+        <?=	$this->render(
+            'left.php'
+        // ['directoryAsset' => $directoryAsset]
+        )
         ?>
 
-        <div class="container">
-        <?= Breadcrumbs::widget([
-            'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
-        ]) ?>
-        <?= Alert::widget() ?>
-        <?= $content ?>
-        </div>
     </div>
 
-    <footer class="footer">
-        <div class="container">
-        <p class="pull-left">&copy; <?= Yii::t('app', Yii::$app->name) ?> <?= date('Y') ?></p>
-        <p class="pull-right"><?= Yii::powered() ?></p>
-        </div>
-    </footer>
+    <div class="main-panel">
 
-    <?php $this->endBody() ?>
+
+        <!-- header -->
+        <?= $this->render(
+            'header.php',
+            ['navbarbrand' => $navbarbrand]
+        ) ?>
+
+
+        <!-- content & footer -->
+        <?= $this->render(
+            'content.php',
+            ['content' => $content]
+        ) ?>
+
+
+
+    </div>
+</div>
+
+<?php $this->endBody() ?>
 </body>
+
 </html>
 <?php $this->endPage() ?>

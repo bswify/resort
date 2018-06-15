@@ -6,34 +6,65 @@ use yii\bootstrap\ActiveForm;
 /* @var $form yii\bootstrap\ActiveForm */
 /* @var $model \common\models\LoginForm */
 
-$this->title = Yii::t('app', 'Login');
+$this->title = 'Sign In';
+
+$fieldOptions1 = [
+    'options' => ['class' => 'form-group has-feedback'],
+    'inputTemplate' => "{input}<span class='glyphicon glyphicon-envelope form-control-feedback'></span>"
+];
+
+$fieldOptions2 = [
+    'options' => ['class' => 'form-group has-feedback'],
+    'inputTemplate' => "{input}<span class='glyphicon glyphicon-lock form-control-feedback'></span>"
+];
 ?>
-<div class="site-login">
 
-    <h1 class="login"><?= Html::encode($this->title) ?></h1>
+<div class="login-box">
+    <div class="login-logo">
+        <?=Html::img(Yii::getAlias('@appRoot3').'/uploads/logo1.png')?>
+        <a href="#"><b>Admin</b> IResort</a>
+    </div>
+    <!-- /.login-logo -->
+    <div class="login-box-body">
 
-    <div class="col-lg-5 well bs-component">
 
-        <p><?= Yii::t('app', 'Please fill out the following fields to login:') ?></p>
+        <?php $form = ActiveForm::begin(['id' => 'login-form', 'enableClientValidation' => false]); ?>
 
-        <?php $form = ActiveForm::begin(['id' => 'login-form']); ?>
+        <?= $form
+            ->field($model, 'username', $fieldOptions1)
+            ->label(false)
+            ->textInput(['placeholder' => $model->getAttributeLabel('username')]) ?>
 
-        <?php //-- use email or username field depending on model scenario --// ?>
-        <?php if ($model->scenario === 'lwe'): ?>
-            <?= $form->field($model, 'email') ?>        
-        <?php else: ?>
-            <?= $form->field($model, 'username') ?>
-        <?php endif ?>
+        <?= $form
+            ->field($model, 'password', $fieldOptions2)
+            ->label(false)
+            ->passwordInput(['placeholder' => $model->getAttributeLabel('password')]) ?>
 
-        <?= $form->field($model, 'password')->passwordInput() ?>
-        <?= $form->field($model, 'rememberMe')->checkbox() ?>
-
-        <div class="form-group">
-            <?= Html::submitButton(Yii::t('app', 'Login'), ['class' => 'btn btn-primary', 'name' => 'login-button']) ?>
+        <div class="row">
+            <div class="col-xs-8">
+                <?= $form->field($model, 'rememberMe')->checkbox() ?>
+            </div>
+            <!-- /.col -->
+            <div class="col-xs-4">
+                <?= Html::submitButton('Sign in', ['class' => 'btn btn-primary btn-block btn-flat', 'name' => 'login-button']) ?>
+            </div>
+            <!-- /.col -->
         </div>
+
 
         <?php ActiveForm::end(); ?>
 
+        <div class="social-auth-links text-center">
+<!--            <p>- OR -</p>-->
+<!--            <a href="#" class="btn btn-block btn-social btn-facebook btn-flat"><i class="fa fa-facebook"></i> Sign in-->
+<!--                using Facebook</a>-->
+<!--            <a href="#" class="btn btn-block btn-social btn-google btn-flat"><i class="fa fa-google-plus"></i> Signin using Google+</a>-->
+        </div>
+        <!-- /.social-auth-links -->
+
+<!--        <a href="#">I forgot my password</a><br>-->
+<!--        <a href="register.html" class="text-center">Register a new membership</a>-->
+
     </div>
-  
-</div>
+    <!-- /.login-box-body -->
+</div><!-- /.login-box -->
