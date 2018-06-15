@@ -138,6 +138,13 @@ if (Yii::$app->user->isGuest){
 ?>
 
 
+    <li>
+        <a href = "<?= Url::to(['site/index'])?>">
+            <i class = "material-icons" > store </i>
+            <p> หน้าแรก </p>
+        </a>
+    </li>
+
         <li>
             <a href = "<?= Url::to(['/booking/index'])?>">
                 <i class = "material-icons" > store </i>
