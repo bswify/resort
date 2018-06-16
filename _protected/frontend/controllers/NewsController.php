@@ -44,6 +44,9 @@ class NewsController extends Controller
         ]);
     }
 
+
+
+
     /**
      * Displays a single News model.
      * @param integer $id

@@ -129,41 +129,67 @@ $this->registerJs($script, View::POS_LOAD, 'myOption'); ?>
 if (Yii::$app->user->isGuest){
 ?>
 
-
-
-
-
-    <?php
-}else{
-?>
-
-
+    <p> บุคคลทั่วไป </p>
     <li>
         <a href = "<?= Url::to(['site/index'])?>">
             <i class = "material-icons" > store </i>
             <p> หน้าแรก </p>
         </a>
     </li>
+    <li>
+        <a href = "<?= Url::to(['/room/index'])?>">
+            <i class = "material-icons" > store </i>
+            <p> ห้องพัก </p>
+        </a>
+    </li>
 
-        <li>
-            <a href = "<?= Url::to(['/booking/index'])?>">
-                <i class = "material-icons" > store </i>
-                <p> จองห้องพัก </p>
-            </a>
-        </li>
+    <li>
+        <a href = "<?= Url::to(['/food/index'])?>">
+            <i class = "material-icons" >local_dining</i>
+            <p> เมนูอาหาร </p>
+        </a>
+    </li>
+    <li>
+        <a href = "<?= Url::to(['/promotion/index'])?>">
+            <i class = "material-icons" > stars </i>
+            <p> โปรโมชั่น </p>
+        </a>
+    </li>
+    <li>
+        <a href = "<?= Url::to(['/news/index'])?>">
+            <i class = "material-icons" > stars </i>
+            <p> ข่าวสาร </p>
+        </a>
+    </li>
+
+
+
+    <?php
+}else{
+?>
+<!--    อยากเช็คสถานะของุ้ใช้งานเพื่อแสดงหรือซ้อนบางอัน-->
+
+    <p> สมาชิก </p>
+    <li>
+        <a href = "<?= Url::to(['site/index'])?>">
+            <i class = "material-icons" > store </i>
+            <p> หน้าแรก </p>
+        </a>
+    </li>
+    <li>
+        <a href = "<?= Url::to(['/room/index'])?>">
+            <i class = "material-icons" > store </i>
+            <p> ห้องพัก </p>
+        </a>
+    </li>
+
+
         <li>
             <a href = "<?= Url::to(['/food/index'])?>">
                 <i class = "material-icons" >local_dining</i>
                 <p> เมนูอาหาร </p>
             </a>
         </li>
-        <!--			<li>-->
-        <!--         <a href = "<= Url::to(['/fooddetails/index'])?>">-->
-        <!--            <i class = "material-icons" > local_activity </i>-->
-        <!--            <p> ข้อมูลรายละเอียดอาหาร </p>-->
-        <!--         </a>-->
-        <!--      </li>-->
-
         <li>
             <a href = "<?= Url::to(['/promotion/index'])?>">
                 <i class = "material-icons" > stars </i>
@@ -177,54 +203,52 @@ if (Yii::$app->user->isGuest){
         </a>
     </li>
 
+    <li>
+        <a href = "<?= Url::to(['/booking/index'])?>">
+            <i class = "material-icons" > store </i>
+            <p> การจองห้องพัก </p>
+        </a>
+    </li>
+
+
+
+    <p> พนักงานต้อนรับ </p>
+    <li>
+        <a href = "<?= Url::to(['/users/index'])?>">
+            <i class = "material-icons" > stars </i>
+            <p> จัดการข้อมูลลูกค้า </p>
+        </a>
+    </li>
+    <li>
+        <a href = "<?= Url::to(['/booking/index'])?>">
+            <i class = "material-icons" > store </i>
+            <p> การจองห้องพัก </p>
+        </a>
+    </li>
+
+    <p> ผู้บริหาร </p>
+    <li>
+        <a href = "<?= Url::to(['/users/index'])?>">
+            <i class = "material-icons" > stars </i>
+            <p> รายงานการเข้าพัก </p>
+        </a>
+    </li>
+    <li>
+        <a href = "<?= Url::to(['/users/index'])?>">
+            <i class = "material-icons" > stars </i>
+            <p> รายงานค่าเช่าห้องพัก  </p>
+        </a>
+    </li>
+    <li>
+        <a href = "<?= Url::to(['/users/index'])?>">
+            <i class = "material-icons" > stars </i>
+            <p> รายงานค่าการทำอาหาร  </p>
+        </a>
+    </li>
 
     <?php
 } //else
 ?>
 
-
-			<!-- <li>
-         <a href = "<= Url::to(['/map/map'])?>">
-            <i class = "material-icons" > stars </i>
-            <p> แผนที่ </p>
-         </a>
-			</li> -->
-			
-      <!-- <li id = "fdash">
-         <a href = "<= Url::to(['/site/index'])?>">
-            <i class = "material-icons" > dashboard </i>
-            <p> Dashboard </p>
-         </a >
-      </li>
-      <li>
-         <a href = "<= Url::to(['/article/index'])?>">
-            <i class = "material-icons" > person </i>
-            <p> Blog </p>
-         </a>
-      </li>
-      <li>
-         <a href = "<= Url::to(['/site/about'])?>" >
-            <i class = "material-icons" > content_paste </i>
-            <p> About </p>
-         </a>
-      </li>
-      <li>
-         <a href = "<= Url::to(['/site/contact'])?>" >
-            <i class = "material-icons" > library_books </i>
-            <p> contact </p>
-         </a>
-      </li> -->
-      <!-- <li>
-         <a href = "<= Url::to(['/site/login'])?>" >
-            <i class = "material-icons" > bubble_chart </i>
-            <p> Login </p>
-         </a >
-      </li>
-      <li>
-         <a href = "<= Url::to(['/site/signup'])?>" >
-            <i class = "material-icons" > location_on </i>
-            <p> Signup </p>
-         </a>
-      </li> -->
    </ul>
 </div>
