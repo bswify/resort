@@ -246,6 +246,48 @@ if (Yii::$app->user->isGuest){
         </a>
     </li>
 
+    <p> แม่บ้าน </p>
+    <li>
+        <a href = "<?= Url::to(['/users/index'])?>">
+            <i class = "material-icons" > stars </i>
+            <p> ข้อมูลห้องพัก</p>
+        </a>
+    </li>
+
+    <p> แม่บ้าน </p>
+    <li>
+        <a href = "<?= Url::to(['/users/index'])?>">
+            <i class = "material-icons" > stars </i>
+            <p> ข้อมูลอาหาร</p>
+        </a>
+    </li>
+    <li>
+        <a href = "<?= Url::to(['/users/index'])?>">
+            <i class = "material-icons" > stars </i>
+            <p> ข้อมูลการสั่งอาหาร</p>
+        </a>
+    </li>
+
+    <p> ฝ่ายการเงิน </p>
+    <li>
+        <a href = "<?= Url::to(['/users/index'])?>">
+            <i class = "material-icons" > stars </i>
+            <p> จัดการโปรโมชั่น</p>
+        </a>
+    </li>
+    <li>
+        <a href = "<?= Url::to(['/users/index'])?>">
+            <i class = "material-icons" > stars </i>
+            <p> จัดการห้องพัก</p>
+        </a>
+    </li>
+    <li>
+        <a href = "<?= Url::to(['/users/index'])?>">
+            <i class = "material-icons" > stars </i>
+            <p> รายงานค่าอาหาร</p>
+        </a>
+    </li>
+
     <?php
 } //else
 ?>
