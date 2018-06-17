@@ -281,7 +281,7 @@ class SiteController extends Controller
         $model = $rna ? new SignupForm(['scenario' => 'rna']) : new SignupForm();
 
 
-        $users = new Users();
+//        $users = new Users();
 
         // collect and validate user data
         if ($model->load(Yii::$app->request->post()) && $model->validate())
@@ -294,6 +294,13 @@ class SiteController extends Controller
                 {
                     if (Yii::$app->getUser()->login($user)) 
                     {
+
+                        // insert data to table
+                        Yii::$app->db->createCommand()->insert('users', [
+                            'Uid' => $user->id,'USid' => 1,
+                        ])->execute();
+
+
                         return $this->goHome();
                     }
                 }
@@ -304,12 +311,12 @@ class SiteController extends Controller
 
                     return $this->refresh();
                 }
-
-                $users->USid = 1;
-                $users->iduser = $model->id;
-                $users->Ufname = $model->username;
-
-                $users->save();
+//
+//                $users->USid = 1;
+//                $users->iduser = $model->id;
+//                $users->Ufname = $model->username;
+//
+//                $users->save();
 
 
 
