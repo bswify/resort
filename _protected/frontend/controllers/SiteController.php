@@ -8,6 +8,7 @@ use frontend\models\PasswordResetRequestForm;
 use frontend\models\ResetPasswordForm;
 use frontend\models\SignupForm;
 use frontend\models\ContactForm;
+use frontend\models\Users;
 use yii\helpers\Html;
 use yii\base\InvalidParamException;
 use yii\web\BadRequestHttpException;
@@ -279,6 +280,9 @@ class SiteController extends Controller
         // if 'rna' value is 'true', we instantiate SignupForm in 'rna' scenario
         $model = $rna ? new SignupForm(['scenario' => 'rna']) : new SignupForm();
 
+
+        $user = new Users();
+
         // collect and validate user data
         if ($model->load(Yii::$app->request->post()) && $model->validate())
         {
@@ -299,7 +303,16 @@ class SiteController extends Controller
                     $this->signupWithActivation($model, $user);
 
                     return $this->refresh();
-                }            
+                }
+
+                $user->USid = 1;
+                $user->iduser = $model->id;
+                $user->Ufname = $model->username;
+
+                $user->save();
+
+
+
             }
             // user could not be saved in database
             else

@@ -14,54 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="left.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_protected/frontend/views/layouts/left.php">
+      <file leaf-file-name="SiteController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_protected/frontend/controllers/SiteController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="286" column="30" lean-forward="false" selection-start-line="286" selection-start-column="30" selection-end-line="286" selection-end-column="30" />
-              <folding>
-                <marker date="1529218045659" expanded="true" signature="159:3634" ph="{...}" />
-                <marker date="1529218045659" expanded="true" signature="168:271" ph="//..." />
-                <marker date="1529218045659" expanded="true" signature="282:355" ph="//..." />
-                <marker date="1529218045659" expanded="true" signature="361:435" ph="/*...*/" />
-                <marker date="1529218045659" expanded="true" signature="611:723" ph="//..." />
-                <marker date="1529218045659" expanded="true" signature="729:762" ph="/*...*/" />
-                <marker date="1529218045659" expanded="true" signature="799:881" ph="{...}" />
-                <marker date="1529218045659" expanded="true" signature="887:927" ph="{...}" />
-                <marker date="1529218045659" expanded="true" signature="933:1187" ph="//..." />
-                <marker date="1529218045659" expanded="true" signature="1198:3146" ph="//..." />
-                <marker date="1529218045659" expanded="true" signature="3153:3246" ph="//..." />
-                <marker date="1529218045659" expanded="true" signature="3254:3626" ph="//..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookingController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_protected/frontend/controllers/BookingController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="53" column="39" lean-forward="false" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookingSearch.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_protected/frontend/models/BookingSearch.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="43" column="33" lean-forward="false" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="left.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_protected/backend/views/layouts/left.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="20" lean-forward="false" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="76" />
+            <state relative-caret-position="187">
+              <caret line="283" column="23" lean-forward="false" selection-start-line="283" selection-start-column="23" selection-end-line="283" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -70,58 +27,8 @@
       <file leaf-file-name="UsersController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_protected/frontend/controllers/UsersController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="37" column="34" lean-forward="false" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UsersSearch.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_protected/frontend/models/UsersSearch.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="44" column="48" lean-forward="false" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_protected/frontend/views/booking/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_protected/backend/views/news/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="43" column="14" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="43" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="view.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_protected/frontend/views/booking/view.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_protected/frontend/views/layouts/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="30" column="24" lean-forward="false" selection-start-line="25" selection-start-column="15" selection-end-line="30" selection-end-column="24" />
+            <state relative-caret-position="-13">
+              <caret line="49" column="1" lean-forward="false" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -167,7 +74,6 @@
         <option value="$PROJECT_DIR$/_protected/backend/controllers/NewsController.php" />
         <option value="$PROJECT_DIR$/_protected/backend/models/News.php" />
         <option value="$PROJECT_DIR$/_protected/backend/views/news/view.php" />
-        <option value="$PROJECT_DIR$/_protected/common/config/params-local.php" />
         <option value="$PROJECT_DIR$/_protected/frontend/views/layouts/header.php" />
         <option value="$PROJECT_DIR$/_protected/frontend/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/_protected/frontend/views/booking/index.php" />
@@ -175,6 +81,8 @@
         <option value="$PROJECT_DIR$/_protected/frontend/models/UsersSearch.php" />
         <option value="$PROJECT_DIR$/_protected/frontend/controllers/BookingController.php" />
         <option value="$PROJECT_DIR$/_protected/frontend/views/layouts/left.php" />
+        <option value="$PROJECT_DIR$/_protected/common/config/params-local.php" />
+        <option value="$PROJECT_DIR$/_protected/frontend/controllers/SiteController.php" />
       </list>
     </option>
   </component>
@@ -288,35 +196,6 @@
               <item name="resort" type="b2602c69:ProjectViewProjectNode" />
               <item name="resort" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="_protected" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="resort" type="b2602c69:ProjectViewProjectNode" />
-              <item name="resort" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="_protected" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="resort" type="b2602c69:ProjectViewProjectNode" />
-              <item name="resort" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="_protected" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="resort" type="b2602c69:ProjectViewProjectNode" />
-              <item name="resort" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="_protected" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="news" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="resort" type="b2602c69:ProjectViewProjectNode" />
-              <item name="resort" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="_protected" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -325,45 +204,6 @@
               <item name="_protected" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="resort" type="b2602c69:ProjectViewProjectNode" />
-              <item name="resort" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="_protected" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="resort" type="b2602c69:ProjectViewProjectNode" />
-              <item name="resort" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="_protected" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="booking" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="resort" type="b2602c69:ProjectViewProjectNode" />
-              <item name="resort" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="_protected" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="resort" type="b2602c69:ProjectViewProjectNode" />
-              <item name="resort" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="_protected" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="news" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="resort" type="b2602c69:ProjectViewProjectNode" />
-              <item name="resort" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="_protected" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="resort" type="b2602c69:ProjectViewProjectNode" />
@@ -441,12 +281,12 @@
       <workItem from="1528880903227" duration="2919000" />
       <workItem from="1528965027553" duration="26377000" />
       <workItem from="1529117877810" duration="2849000" />
-      <workItem from="1529217536987" duration="505000" />
+      <workItem from="1529217536987" duration="1987000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32650000" />
+    <option name="totallyTimeSpent" value="34132000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="4" width="1163" height="715" extended-state="0" />
@@ -483,27 +323,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_protected/backend/config/params-local.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_protected/backend/config/main-local.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_protected/backend/config/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_protected/backend/views/layouts/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -546,21 +365,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_protected/frontend/config/main-local.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_protected/frontend/config/params.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_protected/frontend/config/params-local.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -700,24 +505,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_protected/common/config/params-local.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="49" lean-forward="false" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_protected/common/config/main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_protected/frontend/controllers/SiteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -802,14 +593,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_protected/frontend/controllers/UsersController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="37" column="34" lean-forward="false" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_protected/frontend/models/UsersSearch.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
@@ -844,7 +627,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_protected/frontend/views/layouts/left.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
+        <state relative-caret-position="644">
           <caret line="286" column="30" lean-forward="false" selection-start-line="286" selection-start-column="30" selection-end-line="286" selection-end-column="30" />
           <folding>
             <marker date="1529218045659" expanded="true" signature="159:3634" ph="{...}" />
@@ -860,6 +643,70 @@
             <marker date="1529218045659" expanded="true" signature="3153:3246" ph="//..." />
             <marker date="1529218045659" expanded="true" signature="3254:3626" ph="//..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_protected/backend/config/main-local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_protected/backend/config/params-local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_protected/common/config/main-local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_protected/frontend/config/params-local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_protected/frontend/config/main-local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_protected/common/config/params-local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="68" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_protected/frontend/controllers/UsersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="49" column="1" lean-forward="false" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_protected/frontend/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="283" column="23" lean-forward="false" selection-start-line="283" selection-start-column="23" selection-end-line="283" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
