@@ -254,7 +254,7 @@ if (Yii::$app->user->isGuest){
         </a>
     </li>
 
-    <p> แม่บ้าน </p>
+    <p> ฝ่ายโภชนาการ </p>
     <li>
         <a href = "<?= Url::to(['/users/index'])?>">
             <i class = "material-icons" > stars </i>

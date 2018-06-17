@@ -14,7 +14,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SiteController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="left.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_protected/frontend/views/layouts/left.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="256" column="20" lean-forward="false" selection-start-line="256" selection-start-column="20" selection-end-line="256" selection-end-column="20" />
+              <folding>
+                <marker date="1529219709867" expanded="true" signature="159:3634" ph="{...}" />
+                <marker date="1529219709867" expanded="true" signature="168:271" ph="//..." />
+                <marker date="1529219709867" expanded="true" signature="282:355" ph="//..." />
+                <marker date="1529219709867" expanded="true" signature="361:435" ph="/*...*/" />
+                <marker date="1529219709867" expanded="true" signature="611:723" ph="//..." />
+                <marker date="1529219709867" expanded="true" signature="729:762" ph="/*...*/" />
+                <marker date="1529219709867" expanded="true" signature="799:881" ph="{...}" />
+                <marker date="1529219709867" expanded="true" signature="887:927" ph="{...}" />
+                <marker date="1529219709867" expanded="true" signature="933:1187" ph="//..." />
+                <marker date="1529219709867" expanded="true" signature="1198:3146" ph="//..." />
+                <marker date="1529219709867" expanded="true" signature="3153:3246" ph="//..." />
+                <marker date="1529219709867" expanded="true" signature="3254:3626" ph="//..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SiteController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_protected/frontend/controllers/SiteController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
@@ -80,9 +103,9 @@
         <option value="$PROJECT_DIR$/_protected/frontend/controllers/NewsController.php" />
         <option value="$PROJECT_DIR$/_protected/frontend/models/UsersSearch.php" />
         <option value="$PROJECT_DIR$/_protected/frontend/controllers/BookingController.php" />
-        <option value="$PROJECT_DIR$/_protected/frontend/views/layouts/left.php" />
         <option value="$PROJECT_DIR$/_protected/common/config/params-local.php" />
         <option value="$PROJECT_DIR$/_protected/frontend/controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/_protected/frontend/views/layouts/left.php" />
       </list>
     </option>
   </component>
@@ -157,7 +180,7 @@
       <path value="$PROJECT_DIR$/_protected/vendor/ramosisw/yii2-material-dashboard" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-4" />
     <option name="y" value="4" />
     <option name="width" value="1163" />
@@ -204,6 +227,21 @@
               <item name="_protected" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="resort" type="b2602c69:ProjectViewProjectNode" />
+              <item name="resort" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="_protected" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="resort" type="b2602c69:ProjectViewProjectNode" />
+              <item name="resort" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="_protected" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="resort" type="b2602c69:ProjectViewProjectNode" />
@@ -281,15 +319,15 @@
       <workItem from="1528880903227" duration="2919000" />
       <workItem from="1528965027553" duration="26377000" />
       <workItem from="1529117877810" duration="2849000" />
-      <workItem from="1529217536987" duration="1987000" />
+      <workItem from="1529217536987" duration="2164000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34132000" />
+    <option name="totallyTimeSpent" value="34309000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="4" width="1163" height="715" extended-state="0" />
+    <frame x="-4" y="4" width="1163" height="715" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20489573" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -625,27 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_protected/frontend/views/layouts/left.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="286" column="30" lean-forward="false" selection-start-line="286" selection-start-column="30" selection-end-line="286" selection-end-column="30" />
-          <folding>
-            <marker date="1529218045659" expanded="true" signature="159:3634" ph="{...}" />
-            <marker date="1529218045659" expanded="true" signature="168:271" ph="//..." />
-            <marker date="1529218045659" expanded="true" signature="282:355" ph="//..." />
-            <marker date="1529218045659" expanded="true" signature="361:435" ph="/*...*/" />
-            <marker date="1529218045659" expanded="true" signature="611:723" ph="//..." />
-            <marker date="1529218045659" expanded="true" signature="729:762" ph="/*...*/" />
-            <marker date="1529218045659" expanded="true" signature="799:881" ph="{...}" />
-            <marker date="1529218045659" expanded="true" signature="887:927" ph="{...}" />
-            <marker date="1529218045659" expanded="true" signature="933:1187" ph="//..." />
-            <marker date="1529218045659" expanded="true" signature="1198:3146" ph="//..." />
-            <marker date="1529218045659" expanded="true" signature="3153:3246" ph="//..." />
-            <marker date="1529218045659" expanded="true" signature="3254:3626" ph="//..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_protected/backend/config/main-local.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -707,6 +724,27 @@
         <state relative-caret-position="187">
           <caret line="283" column="23" lean-forward="false" selection-start-line="283" selection-start-column="23" selection-end-line="283" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_protected/frontend/views/layouts/left.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="256" column="20" lean-forward="false" selection-start-line="256" selection-start-column="20" selection-end-line="256" selection-end-column="20" />
+          <folding>
+            <marker date="1529219709867" expanded="true" signature="159:3634" ph="{...}" />
+            <marker date="1529219709867" expanded="true" signature="168:271" ph="//..." />
+            <marker date="1529219709867" expanded="true" signature="282:355" ph="//..." />
+            <marker date="1529219709867" expanded="true" signature="361:435" ph="/*...*/" />
+            <marker date="1529219709867" expanded="true" signature="611:723" ph="//..." />
+            <marker date="1529219709867" expanded="true" signature="729:762" ph="/*...*/" />
+            <marker date="1529219709867" expanded="true" signature="799:881" ph="{...}" />
+            <marker date="1529219709867" expanded="true" signature="887:927" ph="{...}" />
+            <marker date="1529219709867" expanded="true" signature="933:1187" ph="//..." />
+            <marker date="1529219709867" expanded="true" signature="1198:3146" ph="//..." />
+            <marker date="1529219709867" expanded="true" signature="3153:3246" ph="//..." />
+            <marker date="1529219709867" expanded="true" signature="3254:3626" ph="//..." />
+          </folding>
         </state>
       </provider>
     </entry>
